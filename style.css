@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family : 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#c2d7ec
+}
+
+#bgpic{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-image: url(../IMG_0246~2.jpg);
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+.logo{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    cursor: pointer;
+}
+span{
+    color: #007dfa;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.paratext{
+    position: relative;
+    top: 220px;
+    right: 200px;
+    font-weight: bolder;
+    font-size: 100px;
+    color: rgb(94, 87, 87);
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px,25px;
+    text-decoration: none;
+}
+nav ul li a{
+    color: rgb(0,0,0);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+nav ul li a :hover{
+    color: #057cf3;
+    transition: 4ms;
+}
+.name{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: xx-large;
+    color: #007dfa;
+}
+.hello{
+    color: white;
+}
+.prakash{
+    position: relative;
+    left:7%;
+}
+
+.E-mail form{
+    width: 380px;
+   max-width: 100%;
+   position: relative;
+}
+.E-mail form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid#007dfa;
+    border-radius: 30px;
+    font-weight: 900;
+}
+.E-mail form input:last-child{
+    display: inline-block;
+    position: absolute;
+    padding: 10px 30px;
+    border: 2px solid#007dfa;
+    border-radius: 30px;
+    background-color: #007dfa;
+    color: white;
+    cursor: pointer;
+    top: 4.25px;
+    right: 4.25px;
+}
+
+.Pic{
+    width: 400px;
+    right: 50px;
+}
+.text{
+    width: 500px;
+    font-weight: 900;
+    font-size: large;
+    word-spacing: 2px;
+}
+#about{
+    padding: 100px 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c2d7ec;
+}
+h1{
+    color: #007dfa;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#contactme{
+    border: solid black 2px;
+    background-color: white;
+    font-size: large;
+    font-weight: 900;
+    /*position: relative;
+    bottom: 70px;
+    left: 220px;*/
+}
+.aboutme{
+    position: relative;
+    left:10%;
+}
+.mailnum{
+    position: relative;
+     left:15%;
+    
+}
+.idandnum{
+    color: #007dfa;
+    font-weight: bold;
+}
+    
